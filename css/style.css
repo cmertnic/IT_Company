@@ -1,3 +1,177 @@
-.container{
-background-color: white;
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.container {
+    background-color: white;
+    position: relative;
+    max-width: 106.66666666666667em;
+}
+
+.p_black {
+    color: black;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: medium;
+    text-decoration: none;
+}
+
+.p_white {
+    color: white;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: medium;
+    text-decoration: none;
+}
+
+.block1 {
+    max-width: 106.66666666666667em;
+    height: 50.388888888888886em;
+
+    .block1_button_start_earning {
+        width: 13em;
+        height: 25.11111111111111em;
+        background-color: #194DD2;
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-weight: 600;
+        font-style: bold;
+        font-size: 36px;
+        padding: 8.333333333333334em 0em 8.333333333333334em 0em;
+
+        p {
+            width: 100%;
+            margin: 0;
+        }
+
+    }
+
+    header {
+        width: 106.66666666666667em;
+        height: 50.22222222222222em;
+        z-index: 0;
+        position: fixed;
+        display: flex;
+        justify-content: end;
+        flex-wrap: wrap;
+        font-size: 18px;
+
+        .block1_button_login_register {
+            width: 18.833333333333332em;
+            height: 6.5em;
+            background-color: #194DD2;
+            z-index: 1;
+        }
+
+        .header_text_div {
+            width: 61.833333333333336em;
+            height: 6.5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            background-color: black;
+
+            .header_text_div2 {
+                width: 45.44444444444444em;
+                height: 1.6666666666666667em;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+        .header_img_div {
+            width: 80.66666666666667em;
+            height: 50.22222222222222em;
+            position: fixed;
+            z-index: 0;
+        }
+
+        .swiper-container {
+            width: 73.38888888888889em;
+            height: 28.166666666666668em;
+            position: relative;
+
+            .swiper-slide {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                color: white;
+
+                h2 {
+                    font-size: 52px;
+                    width: 100%;
+                    line-height: 1.5;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 22px;
+                    width: 100%;
+                    margin-bottom: 3.0454545454545454em;
+                    line-height: 2;
+                }
+
+                button {
+                    background-color: none;
+                    color: white;
+                    border: solid 2px rgb(255, 255, 255);
+                    border-radius: 36px;
+                    width: 16.666666666666668em;
+                    height: 3.3333333333333335em;
+                    font-size: 18px;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: auto;
+                }
+            }
+
+
+            .swiper-pagination {
+                left: 87%;
+                top: 50%;
+                transform: translateY(-50%);
+                display: flex;
+                justify-content: end;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 0.5555555555555556em;
+                height: 3.888888888888889em;
+            }
+
+            .swiper-pagination-bullet {
+                background: #ffffff;
+                width: 0.5555555555555556em;
+                height: 0.5555555555555556em;
+                border-radius: 50%;
+                opacity: 0.7;
+                margin-top: 0.5555555555555556em;
+            }
+
+            .swiper-pagination-bullet-active {
+                opacity: 1;
+            }
+        }
+
+
+
+    }
+
+
+
+
 }
