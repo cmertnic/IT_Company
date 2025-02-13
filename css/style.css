@@ -8,7 +8,9 @@ button {
 .container {
     background-color: white;
     position: relative;
-    max-width: 106.66666666666667em;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .p_black {
@@ -30,12 +32,12 @@ button {
 }
 
 .block1 {
-    max-width: 106.66666666666667em;
-    height: 50.388888888888886em;
+    max-width: 1920px;
+    height: 907px;
 
     .block1_button_start_earning {
-        width: 13em;
-        height: 25.11111111111111em;
+        width: 468px;
+        height: 904px;
         background-color: #194DD2;
         z-index: 2;
         position: absolute;
@@ -46,7 +48,7 @@ button {
         font-weight: 600;
         font-style: bold;
         font-size: 36px;
-        padding: 8.333333333333334em 0em 8.333333333333334em 0em;
+        padding: 300px 0px 300px 0px;
 
         p {
             width: 100%;
@@ -56,25 +58,25 @@ button {
     }
 
     header {
-        width: 106.66666666666667em;
-        height: 50.22222222222222em;
+        max-width: 1920px;
+        height: 904px;
         z-index: 0;
-        position: fixed;
+        position: absolute;
         display: flex;
         justify-content: end;
         flex-wrap: wrap;
         font-size: 18px;
 
         .block1_button_login_register {
-            width: 18.833333333333332em;
-            height: 6.5em;
+            width: 339px;
+            height: 117px;
             background-color: #194DD2;
             z-index: 1;
         }
 
         .header_text_div {
-            width: 61.833333333333336em;
-            height: 6.5em;
+            width: 1113px;
+            height: 117px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -82,25 +84,30 @@ button {
             background-color: black;
 
             .header_text_div2 {
-                width: 45.44444444444444em;
-                height: 1.6666666666666667em;
+                width: 818px;
+                height: 30px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                padding: 0;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
 
         .header_img_div {
-            width: 80.66666666666667em;
-            height: 50.22222222222222em;
-            position: fixed;
+            width: 1452px;
+            height: 904px;
+            position: absolute;
             z-index: 0;
+            background-image: url("/img/monitor_guy.png");
+            background-size: cover;
         }
 
         .swiper-container {
-            width: 73.38888888888889em;
-            height: 28.166666666666668em;
-            position: relative;
+            width: 1321px;
+            height: 515px;
+            overflow: hidden;
 
             .swiper-slide {
                 display: flex;
@@ -120,7 +127,7 @@ button {
                 p {
                     font-size: 22px;
                     width: 100%;
-                    margin-bottom: 3.0454545454545454em;
+                    margin-bottom: 67px;
                     line-height: 2;
                 }
 
@@ -129,8 +136,8 @@ button {
                     color: white;
                     border: solid 2px rgb(255, 255, 255);
                     border-radius: 36px;
-                    width: 16.666666666666668em;
-                    height: 3.3333333333333335em;
+                    width: 300px;
+                    height: 60px;
                     font-size: 18px;
                     cursor: pointer;
                     display: flex;
@@ -140,7 +147,6 @@ button {
                 }
             }
 
-
             .swiper-pagination {
                 left: 87%;
                 top: 50%;
@@ -149,29 +155,171 @@ button {
                 justify-content: end;
                 flex-direction: column;
                 justify-content: space-between;
-                width: 0.5555555555555556em;
-                height: 3.888888888888889em;
+                width: 10px;
+                height: 70px;
             }
 
             .swiper-pagination-bullet {
                 background: #ffffff;
-                width: 0.5555555555555556em;
-                height: 0.5555555555555556em;
+                width: 10px;
+                height: 10px;
                 border-radius: 50%;
                 opacity: 0.7;
-                margin-top: 0.5555555555555556em;
+                margin-top: 10px;
             }
 
             .swiper-pagination-bullet-active {
                 opacity: 1;
             }
         }
-
-
-
     }
+}
 
+.block2 {
+    width: 1920px;
+    height: 1254px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    .block2_main {
+        width: 1480px;
+        height: 1055px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
+        .block2_main_podblock1 {
+            width: 1402px;
+            height: 547px;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-between;
 
+            .block2_main_podblock1_1 {
+                width: 629px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .block2_main_podblock1_1_div {
+                    width: 304px;
+                    height: 327px;
+                    background-color: #194DD2;
+
+                    h2 {
+                        font-size: 42px;
+                        margin-left: 31px;
+                        margin-top: 174px;
+                    }
+
+                }
+
+                .block2_main_podblock1_1_img1 {
+                    width: 304px;
+                    height: 327px;
+                    background-image: url("/img/programming_small.png");
+                    background-size: cover;
+                }
+
+                .block2_main_podblock1_1_img2 {
+                    width: 100%;
+                    height: 201px;
+                    background-image: url("/img/programming_big.png");
+                    background-size: cover;
+                    margin-top: auto;
+                }
+            }
+
+            .block2_main_podblock1_2 {
+                width: 673px;
+                margin-top: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                h2 {
+                    font-size: 42px;
+                }
+
+                p {
+                    max-width: 599px;
+                    line-height: 1.5;
+                    margin-bottom: 66px;
+                    margin-top: 38px;
+                }
+
+                button {
+                    background-color: #0A51CB;
+                    color: white;
+                    border: solid 2px rgb(255, 255, 255);
+                    border-radius: 36px;
+                    width: 236px;
+                    height: 60px;
+                    font-size: 18px;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: auto;
+                }
+            }
+        }
+
+        .block2_main_podblock2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 100px;
+
+            .block2_card {
+                width: 473px;
+                height: 408px;
+                background-color: white;
+                filter: drop-shadow(20px 20px 45px #00000023);
+
+                .block2_card_div {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 281px;
+                    height: 52px;
+                    margin-left: 39px;
+                    margin-top: 64px;
+
+                    .block2_card_div_img1 {
+                        width: 44px;
+                        height: 49px;
+                        background-image: url("/img/arrow_up.svg");
+                        background-size: cover;
+                    }
+
+                    .block2_card_div_img2 {
+                        width: 2px;
+                        background-color: #E3E3E3;
+                        height: 49px;
+                    }
+
+                    p {
+                        font-weight: bold;
+                        line-height: 1.5;
+                        max-width: 170px;
+                        height: 49px;
+                        margin: 0;
+                    }
+                }
+
+                p {
+                    line-height: 2;
+                    max-width: 395px;
+                    height: 186px;
+                    margin: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 42px;
+                }
+            }
+        }
+    }
 }
