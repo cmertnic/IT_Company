@@ -2,6 +2,7 @@
     .container {
         max-width: 100%;
     }
+
     .block1 {
         max-width: 100%;
 
@@ -23,30 +24,45 @@
             .swiper-container {
                 width: 70%;
             }
+
             .header_img_div {
                 width: 100%;
             }
         }
     }
+
     .block2 {
         width: 100%;
-    
+
         .block2_main {
             width: 1480px;
-            height: 1055px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-    
+            height: auto;
+
             .block2_main_podblock1 {
                 width: 100%;
-                height: 547px;
-                margin-right: auto;
-                display: flex;
-                justify-content: space-between;
-    
+
+                .block2_main_podblock1_2 {
+                    width: 45%;
+                }
             }
-    
+
+            .block2_main_podblock2 {
+                justify-content: center;
+
+            }
+
+        }
+    }
+
+    .block3 {
+        width: 100%;
+
+        .block3_podblock1 {
+            width: 90%;
+        }
+
+        .block3_img {
+            width: 20%;
         }
     }
 }
