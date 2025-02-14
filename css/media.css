@@ -1,10 +1,9 @@
 @media (max-width: 1900px) {
     .container {
-        max-width: 100%;
+        width: 100%;
     }
 
     .block1 {
-        max-width: 100%;
 
         .block1_button_start_earning {
             width: 24%;
@@ -32,7 +31,6 @@
     }
 
     .block2 {
-        width: 100%;
 
         .block2_main {
             width: 1480px;
@@ -55,7 +53,6 @@
     }
 
     .block3 {
-        width: 100%;
 
         .block3_podblock1 {
             width: 90%;
@@ -63,6 +60,19 @@
 
         .block3_img {
             width: 20%;
+        }
+    }
+
+    .block4 {}
+}
+
+@media (max-width: 1480px) {
+    .block4 {
+        .block4_main {
+            .block4_podblock2 {
+                width: 100%;
+                justify-content: space-around;
+            }
         }
     }
 }
