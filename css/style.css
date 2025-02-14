@@ -435,17 +435,19 @@ button {
 
 .block4 {
     width: 100%;
-    height: 1014px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .block4_main {
-        height: 781px;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        margin-bottom: 114px;
+        margin-top: 119px;
 
         .block4_podblock1 {
             width: 100%;
@@ -557,6 +559,119 @@ button {
                 background-color: none;
                 color: #002C54;
                 border: solid 2px #002C54;
+                border-radius: 36px;
+                width: 300px;
+                height: 60px;
+                font-size: 18px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+.block5 {
+    background-image: url("/img/block5_background.png");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .block5_main {
+        width: 1495px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .block5_podblock1 {
+            width: 100%;
+            height: 78px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            div {
+                width: 65px;
+                height: 2px;
+                background-color: #FFFFFF;
+            }
+
+            h2 {
+                width: 100%;
+                text-align: center;
+                font-size: 42px;
+                font-weight: bold;
+            }
+        }
+
+        .block5_podblock2 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 78px;
+            flex-wrap: wrap;
+            margin-bottom: 153px;
+
+            .card {
+                width: 321px;
+                height: 157px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-top: 50px;
+
+                h2 {
+                    font-weight: bold;
+                    font-size: 64px;
+                }
+
+                div {
+                    width: 306px;
+                    height: 2px;
+                    background-color: #FFFFFF;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .block5_podblock3 {
+            width: 625px;
+            height: 61px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 100px;
+
+            .button1 {
+                background-color: #0A51CB;
+                color: white;
+                border-radius: 36px;
+                width: 300px;
+                height: 60px;
+                font-size: 18px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: auto;
+            }
+
+            .button2 {
+                background-color: none;
+                color: #ffffff;
+                border: solid 2px #ffffff;
                 border-radius: 36px;
                 width: 300px;
                 height: 60px;

@@ -63,7 +63,13 @@
         }
     }
 
-    .block4 {}
+    .block5 {
+        .block5_main{
+            .block5_podblock2 {
+                justify-content: center;
+            }
+        }
+    }
 }
 
 @media (max-width: 1480px) {
