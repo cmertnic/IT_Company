@@ -64,7 +64,7 @@
     }
 
     .block5 {
-        .block5_main{
+        .block5_main {
             .block5_podblock2 {
                 justify-content: center;
             }
@@ -73,11 +73,63 @@
 }
 
 @media (max-width: 1480px) {
+    .block2 {
+        .block2_main {
+
+            .block2_main_podblock1 {
+                justify-content: center;
+                .block2_main_podblock1_2{
+                    justify-content: center;
+                    text-align: center;
+                    button{
+                        margin: 0;
+                    }
+                }
+            }
+
+        }
+    }
     .block4 {
         .block4_main {
             .block4_podblock2 {
                 width: 100%;
                 justify-content: space-around;
+            }
+        }
+    }
+
+    .block6 {
+        .block6_main {
+            .block6_podblock2 {
+                justify-content: center;
+
+                .block6_podblock2_2 {
+                    justify-content: center;
+
+                    button {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .block6_podblock3 {
+                justify-content: center;
+                .block6_podblock3_1 {
+                    justify-content: center;
+                    text-align: center;
+                    margin-bottom: 20px;
+
+                    button {
+                        margin-right: 0;
+                    }
+                }
+
+            }
+
+            .block6_podblock4 {
+                .block6_podblock4_2 {
+                    justify-content: center;
+                }
             }
         }
     }
