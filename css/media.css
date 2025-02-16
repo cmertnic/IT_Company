@@ -27,6 +27,10 @@
             .header_img_div {
                 width: 100%;
             }
+
+            .swiper-pagination {
+                left: 97%;
+            }
         }
     }
 
@@ -73,15 +77,37 @@
 }
 
 @media (max-width: 1480px) {
+    .block1 {
+        header {
+            .header_text_div {
+                .header_text_div2 {
+                    margin-left: 2%;
+                    margin-right: 2%;
+                }
+            }
+
+
+            .swiper-container {
+                .swiper-slide {
+                    h2 {
+                        font-size: 140%;
+                    }
+                }
+            }
+        }
+    }
+
     .block2 {
         .block2_main {
 
             .block2_main_podblock1 {
                 justify-content: center;
-                .block2_main_podblock1_2{
+
+                .block2_main_podblock1_2 {
                     justify-content: center;
                     text-align: center;
-                    button{
+
+                    button {
                         margin: 0;
                     }
                 }
@@ -89,6 +115,7 @@
 
         }
     }
+
     .block4 {
         .block4_main {
             .block4_podblock2 {
@@ -100,11 +127,13 @@
 
     .block6 {
         .block6_main {
+
             .block6_podblock2 {
                 justify-content: center;
 
                 .block6_podblock2_2 {
                     justify-content: center;
+                    text-align: center;
 
                     button {
                         margin: 0;
@@ -114,6 +143,7 @@
 
             .block6_podblock3 {
                 justify-content: center;
+
                 .block6_podblock3_1 {
                     justify-content: center;
                     text-align: center;
@@ -129,6 +159,124 @@
             .block6_podblock4 {
                 .block6_podblock4_2 {
                     justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    .block1 {
+        .block1_button_start_earning {
+            p {
+                font-size: 70%;
+            }
+        }
+
+        header {
+            .header_text_div {
+                .header_text_div2 {
+                    margin-left: 2%;
+                    margin-right: 2%;
+
+                    li {
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .swiper-container {
+                .swiper-slide {
+                    h2 {
+                        font-size: 140%;
+                    }
+                }
+
+                .swiper-pagination {
+                    left: 97%;
+                }
+            }
+
+        }
+    }
+
+    .block3 {
+        height: auto;
+
+        .block3_img {
+            display: none;
+        }
+
+        .block3_podblock1 {
+            height: auto;
+            width: 100%;
+            flex-wrap: wrap;
+
+            .block3_podblock1_1 {
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                text-align: center;
+
+                div {
+                    width: 100%;
+                }
+
+                button {
+                    margin: 0;
+                }
+            }
+
+            .block3_podblock1_2 {}
+        }
+    }
+
+    footer {
+        height: 100%;
+
+        .footer_main {
+            justify-content: center;
+            align-items: center;
+
+            .footer_block1 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                p {
+                    width: 352px;
+                    text-align: center;
+                }
+            }
+
+            .footer_block2 {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+
+                h3 {
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .footer_block2_1 {
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+
+            .footer_block3 {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                .line_div {
+                    margin-left: auto;
+                    margin-right: auto;
                 }
             }
         }
